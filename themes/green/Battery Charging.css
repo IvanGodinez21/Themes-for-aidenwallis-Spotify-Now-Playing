@@ -1,0 +1,17 @@
+/* Battery Charging */
+#container {
+    background: rgba(30, 33, 36, 1);
+}
+#container.active {
+  animation: Battery-Charging 5s linear infinite;
+}
+@keyframes Battery-Charging {
+  0%,
+  100% {
+    background: rgba(29, 185, 84, 1);
+  }
+
+  10% {
+    background: rgba(30, 33, 36, 1);
+  }
+}

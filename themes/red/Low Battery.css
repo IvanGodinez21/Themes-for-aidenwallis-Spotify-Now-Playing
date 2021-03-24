@@ -1,0 +1,15 @@
+/* Low Battery */
+#container {
+    background: rgba(30, 33, 36, 1);
+  }
+#container.active {
+  animation: Low-Battery 10s ease-out infinite alternate both;
+}
+@keyframes Low-Battery {
+  0% {
+    background: rgba(161, 29, 51, 1);
+  }
+  30%, 100% {
+    background: rgba(30, 33, 36, 1);
+  }
+}
