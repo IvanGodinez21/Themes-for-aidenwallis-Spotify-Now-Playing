@@ -1,4 +1,4 @@
-# Themes-for-Aiden-Wallis-Spotify-Now-Playing
+# Themes for Aiden Wallis Spotify Now Playing
 ## Use custom CSS code for amazing themes!
 **Enjoy using these themes, THEY ARE FREE!**
 <p align="center"><img src="./content/images/aiden-wallis'-spotify-now-playing/example.gif"></p>
