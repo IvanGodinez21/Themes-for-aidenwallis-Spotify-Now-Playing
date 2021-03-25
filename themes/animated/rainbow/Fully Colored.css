@@ -1,0 +1,20 @@
+/* Fully Colored */
+#container {
+    background: rgba(30, 33, 36, 1);
+}
+#container.active {
+  animation: Fully-Colored 4s linear infinite;
+}
+@keyframes Fully-Colored {
+  0%, 100% {
+    background: rgb(255, 0, 0);
+  }
+
+  33% {
+    background: rgba(0, 255, 0, 1);
+  }
+
+66% {
+    background: rgba(0, 0, 255, 1);
+  }
+}

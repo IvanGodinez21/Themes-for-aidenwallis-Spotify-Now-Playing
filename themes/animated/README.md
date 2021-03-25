@@ -1,4 +1,4 @@
 # These folders contains different themes
-All themes are ordered by the type and the primary color.
+All of these themes are animated
 
 **More themes are cooming Soon™.**
