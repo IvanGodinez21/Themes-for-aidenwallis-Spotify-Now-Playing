@@ -3,11 +3,11 @@
     background: rgba(30, 33, 36, 1);
   }
 #container.active {
-  animation: Low-Battery 10s ease-out infinite alternate both;
+  animation: background 10s ease-out infinite alternate both;
 }
-@keyframes Low-Battery {
+@keyframes background {
   0% {
-    background: rgb(80, 11, 23);;
+    background: rgb(80, 11, 23);
   }
   40%, 100% {
     background: rgba(161, 29, 51, 1);

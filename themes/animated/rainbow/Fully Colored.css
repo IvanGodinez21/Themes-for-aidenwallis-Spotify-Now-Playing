@@ -3,9 +3,9 @@
     background: rgba(30, 33, 36, 1);
 }
 #container.active {
-  animation: Fully-Colored 4s linear infinite;
+  animation: background 4s linear infinite;
 }
-@keyframes Fully-Colored {
+@keyframes background {
   0%, 100% {
     background: rgb(255, 0, 0);
   }

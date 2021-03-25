@@ -3,9 +3,9 @@
     background: rgba(30, 33, 36, 1);
 }
 #container.active {
-  animation: Battery-Charging 5s linear infinite;
+  animation: background 5s linear infinite;
 }
-@keyframes Battery-Charging {
+@keyframes background {
   0%,
   100% {
     background: rgba(29, 185, 84, 1);

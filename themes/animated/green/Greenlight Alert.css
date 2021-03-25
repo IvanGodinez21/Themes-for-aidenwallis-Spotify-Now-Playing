@@ -3,9 +3,9 @@
     background: rgba(30, 33, 36, 1);
   }
 #container.active {
-  animation: Greenlight-Alert 10s ease-out infinite alternate both;
+  animation: background 10s ease-out infinite alternate both;
 }
-@keyframes Greenlight-Alert {
+@keyframes background {
   0% {
     background: rgba(29, 185, 84, 1);
   }

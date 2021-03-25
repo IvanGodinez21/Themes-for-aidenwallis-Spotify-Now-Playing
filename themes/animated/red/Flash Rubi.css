@@ -1,0 +1,66 @@
+/* Flash Rubi */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+#container {
+    animation: background 5s ease-out infinite alternate both;
+    border: 1px solid rgba(161, 29, 51, 1);
+    background: rgba(36, 36, 36, 1);
+    border-radius: 5px 0px 0px 5px;
+    overflow: hidden;
+}
+img {
+    animation: frame 5s ease-out infinite alternate both;
+    border: 1px solid rgba(161, 29, 51, 1);
+    border-radius: 5px 0px 0px 5px;
+    overflow: hidden;
+}
+#artists {
+    animation: artists 5s ease-out infinite alternate both;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+}
+#name {
+    animation: name 5s ease-out infinite alternate both;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+}
+@keyframes artists {
+    0%, 80% {
+        color: rgba(255, 255, 255, 1);
+    }
+    90% {
+        color: rgb(250, 92, 118);
+    }
+}
+@keyframes name {
+    0%, 100% {
+        color: rgb(221, 107, 126);
+    }
+    50% {
+        color: rgba(231, 29, 54, 1);
+    }
+}
+@keyframes frame {
+  0%, 100% {
+    border: 1px solid rgba(231, 29, 54, 1);
+    margin-top: -1px;
+    margin-left: -1px;
+    overflow: hidden;
+  }
+  50% {
+    border: 1px solid rgba(80, 11, 23, 1);
+    margin-top: -1px;
+    margin-left: -1px;
+    overflow: hidden;
+  }
+}
+@keyframes background {
+    0%, 100% {
+      border: 1px solid rgba(231, 29, 54, 1);
+      overflow: hidden;
+    }
+    50% {
+      border: 1px solid rgba(80, 11, 23, 1);
+      overflow: hidden;
+    }
+}
