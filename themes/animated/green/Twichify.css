@@ -1,0 +1,41 @@
+/* Twichify */
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+#container {
+  background: rgba(30, 33, 36, 1);
+}
+#container.active {
+  animation: Greenlight-Alert 10s ease-out infinite alternate both;
+}
+#artists {
+  animation: Greenlight-Alert-artists 4s ease-out infinite alternate both;
+  font-family: 'Balsamiq Sans', cursive;
+}
+#name {
+  animation: Greenlight-Alert-name 4s ease-out infinite alternate both;
+  font-family: 'Patrick Hand', cursive;
+}
+@keyframes Greenlight-Alert {
+  0% {
+    background: rgba(29, 185, 84, 1);
+  }
+  20%,
+  100% {
+    background: rgba(30, 33, 36, 1);
+  }
+}
+@keyframes Greenlight-Alert-artists {
+  0%, 100% {
+    color: rgba(100, 65, 165, 1);
+  }
+  50% {
+    color: rgb(185, 163, 227);
+  }
+}
+@keyframes Greenlight-Alert-name {
+  0%, 100% {
+    color: rgb(200, 200, 200);
+  }
+  50% {
+    color: rgb(255, 255, 255);
+  }
+}
