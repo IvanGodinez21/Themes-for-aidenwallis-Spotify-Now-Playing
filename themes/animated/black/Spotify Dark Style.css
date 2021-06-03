@@ -3,8 +3,8 @@
 #container {
   animation: bar 5s ease-out infinite alternate both;
   background: rgba(25, 20, 20, 1);
-  border-radius: 35px 15px 15px 35px;
-  border-bottom: 4px solid rgba(29, 185, 84, 1);
+  border-radius: 15px 15px 15px 15px;
+  border-bottom: 3px solid rgba(29, 185, 84, 1);
 }
 img {
   animation: cover-spin 20s linear infinite,
@@ -14,8 +14,8 @@ img {
   left: 2px;
   width: 65px;
   height: 65px;
+  border-radius: 50%;
   border: 3px solid rgba(255, 255, 255, 1);
-  border-radius: 50px 50px 50px 50px;
 }
 #artists {
   color: rgba(255, 255, 255, 1);
