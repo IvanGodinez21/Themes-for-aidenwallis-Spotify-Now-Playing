@@ -1,0 +1,8 @@
+/* Widget in the right side */
+#container {
+    border-radius: 15px 0px 0px 15px;
+}
+/* Widget in the left side */
+#container {
+    border-radius: 0px 15px 15px 0px;
+}

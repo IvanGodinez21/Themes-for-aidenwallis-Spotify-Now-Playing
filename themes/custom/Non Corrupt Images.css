@@ -1,0 +1,4 @@
+/*Doesn't work when the widget initialize, just when track changes*/
+img#album-new {
+    visibility: hidden;
+}
