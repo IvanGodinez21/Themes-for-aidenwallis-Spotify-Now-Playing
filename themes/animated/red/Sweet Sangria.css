@@ -1,0 +1,64 @@
+/* Sweet Sangria */
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap");
+#container {
+  animation: bar 5s ease-out infinite alternate both;
+  background: rgba(25, 20, 20, 1);
+  border-radius: 15px 15px 15px 15px;
+  border-bottom: 3px solid rgba(161, 29, 51, 1);
+}
+img {
+  animation: cover-spin 20s linear infinite,
+    cover-border 5s ease-out infinite alternate both;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 1);
+}
+#artists {
+  color: rgba(250, 92, 118, 1);
+  font-family: "Lexend", sans-serif;
+  font-size: 12px;
+  position: absolute;
+  bottom: 12px;
+}
+#name {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Lexend", sans-serif;
+  font-size: 18px;
+  position: absolute;
+  top: 10px;
+}
+.cover {
+  animation: bar 5s ease-out infinite alternate both;
+  background: rgba(25, 20, 20, 1);
+  border-radius: 15px 0px 0px 15px;
+}
+@keyframes bar {
+  0%,
+  100% {
+    border-bottom: 3px solid rgba(161, 29, 51, 1);
+  }
+  50% {
+    border-bottom: 3px solid rgba(25, 20, 20, 1);
+  }
+}
+@keyframes cover-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes cover-border {
+  0%,
+  100% {
+    border: 3px solid rgba(161, 29, 51, 1);
+  }
+  50% {
+    border: 3px solid rgba(255, 255, 255, 1);
+  }
+}
