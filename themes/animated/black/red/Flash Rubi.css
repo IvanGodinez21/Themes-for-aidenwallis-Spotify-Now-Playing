@@ -1,5 +1,7 @@
 /* Flash Rubi */
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap");
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+/*Widget box*/
 #container {
   animation: background 5s ease-out infinite alternate both;
   border: 1px solid rgba(161, 29, 51, 1);
@@ -7,6 +9,30 @@
   border-radius: 5px 0px 0px 5px;
   overflow: hidden;
 }
+/*Track name*/
+#name {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  text-transform: none;
+  position: absolute;
+  top: 10px;
+}
+/*Artist name*/
+#artists {
+  color: rgb(250, 92, 118);
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 12px;
+  text-transform: none;
+  position: absolute;
+  bottom: 12px;
+}
+/*Image cover box*/
+.cover {
+  background: rgb(30 30 30);
+  border-radius: 5px 0px 0px 5px;
+}
+/*Image cover*/
 img {
   animation: cover-spin 20s linear infinite,
     cover-border 5s ease-out infinite alternate both;
@@ -20,24 +46,7 @@ img {
   border: 3px solid rgba(255, 255, 255, 1);
   border-radius: 50px 50px 50px 50px;
 }
-#artists {
-  color: rgb(250, 92, 118);
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 12px;
-  position: absolute;
-  bottom: 12px;
-}
-#name {
-  color: rgba(255, 255, 255, 1);
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 16px;
-  position: absolute;
-  top: 10px;
-}
-.cover {
-  background: rgb(30 30 30);
-  border-radius: 5px 0px 0px 5px;
-}
+/*Animations*/
 @keyframes background {
   0%,
   100% {

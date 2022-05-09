@@ -1,11 +1,38 @@
 /* Spotify Green Style */
-@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap");
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+/*Widget box*/
 #container {
   animation: bar 5s ease-out infinite alternate both;
   background: rgba(29, 185, 84, 1);
   border-radius: 15px 15px 15px 15px;
   border-bottom: 3px solid rgba(255, 255, 255, 1);
 }
+/*Track name*/
+#name {
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Lexend', sans-serif;
+  font-size: 18px;
+  text-transform: none;
+  position: absolute;
+  top: 10px;
+}
+/*Artist name*/
+#artists {
+  color: rgba(25, 20, 20, 1);
+  font-family: 'Lexend', sans-serif;
+  font-size: 12px;
+  text-transform: none;
+  position: absolute;
+  bottom: 12px;
+}
+/*Image cover box*/
+.cover {
+  animation: bar 5s ease-out infinite alternate both;
+  background: rgba(29, 185, 84, 1);
+  border-radius: 15px 0px 0px 15px;
+}
+/*Image cover*/
 img {
   animation: cover-spin 20s linear infinite,
     cover-border 5s ease-out infinite alternate both;
@@ -17,25 +44,7 @@ img {
   border-radius: 50%;
   border: 3px solid rgba(255, 255, 255, 1);
 }
-#artists {
-  color: rgba(25, 20, 20, 1);
-  font-family: "Lexend", sans-serif;
-  font-size: 12px;
-  position: absolute;
-  bottom: 12px;
-}
-#name {
-  color: rgba(255, 255, 255, 1);
-  font-family: "Lexend", sans-serif;
-  font-size: 18px;
-  position: absolute;
-  top: 10px;
-}
-.cover {
-  animation: bar 5s ease-out infinite alternate both;
-  background: rgba(29, 185, 84, 1);
-  border-radius: 15px 0px 0px 15px;
-}
+/*Animations*/
 @keyframes bar {
   0%,
   100% {

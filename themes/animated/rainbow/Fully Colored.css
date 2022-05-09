@@ -1,18 +1,21 @@
 /* Fully Colored */
+/*Widget box*/
 #container {
-    background: rgba(30, 33, 36, 1);
+  background: rgba(30, 33, 36, 1);
 }
 #container.active {
   animation: background 4s linear infinite;
 }
+/*Animations*/
 @keyframes background {
-  0%, 100% {
+  0%,
+  100% {
     background: rgb(255, 0, 0);
   }
   33% {
     background: rgba(0, 255, 0, 1);
   }
-66% {
+  66% {
     background: rgba(0, 0, 255, 1);
   }
 }

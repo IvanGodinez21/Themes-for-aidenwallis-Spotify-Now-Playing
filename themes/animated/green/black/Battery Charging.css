@@ -1,10 +1,12 @@
 /* Battery Charging */
+/*Widget box*/
 #container {
-    background: rgba(30, 33, 36, 1);
+  background: rgba(30, 33, 36, 1);
 }
 #container.active {
   animation: background 5s linear infinite;
 }
+/*Animations*/
 @keyframes background {
   0%,
   100% {

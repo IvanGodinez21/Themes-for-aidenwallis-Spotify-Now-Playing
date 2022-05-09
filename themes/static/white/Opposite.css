@@ -1,10 +1,13 @@
 /* Opposite */
+/*Widget box*/
 #container {
-    background: rgba(228, 226, 223, 1);
-  }
-#artists {
- color: rgba(218, 52, 92, 1);
+  background: rgba(228, 226, 223, 1);
 }
+/*Track name*/
 #name {
-    color: rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 1);
+}
+/*Artist name*/
+#artists {
+  color: rgba(218, 52, 92, 1);
 }

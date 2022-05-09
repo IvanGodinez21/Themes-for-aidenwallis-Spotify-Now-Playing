@@ -1,15 +1,18 @@
 /* Greenlight Alert */
+/*Widget box*/
 #container {
-    background: rgba(30, 33, 36, 1);
-  }
+  background: rgba(30, 33, 36, 1);
+}
 #container.active {
   animation: background 10s ease-out infinite alternate both;
 }
+/*Animations*/
 @keyframes background {
   0% {
     background: rgba(29, 185, 84, 1);
   }
-  20%, 100% {
+  20%,
+  100% {
     background: rgba(30, 33, 36, 1);
   }
 }
